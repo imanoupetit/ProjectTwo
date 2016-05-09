@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C700B6201B09F500000C4700 /* GameOverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C700B61F1B09F500000C4700 /* GameOverController.swift */; };
+		C700B6221B0A2821000C4700 /* Sparkling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C700B6211B0A2821000C4700 /* Sparkling.mp3 */; };
+		C700B6241B0A3AA7000C4700 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C700B6231B0A3AA7000C4700 /* CountdownViewController.swift */; };
+		C700B6261B0A3EC2000C4700 /* CountdownPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C700B6251B0A3EC2000C4700 /* CountdownPresentationController.swift */; };
+		C700B6291B0A4328000C4700 /* GameOverPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C700B6281B0A4328000C4700 /* GameOverPresentationController.swift */; };
+		C70ED1E21B0B6A6300BA0C68 /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70ED1E11B0B6A6300BA0C68 /* StyledButton.swift */; };
+		C733C3A01B06708D00262212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733C39F1B06708D00262212 /* AppDelegate.swift */; };
+		C733C3A21B06708D00262212 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733C3A11B06708D00262212 /* GameViewController.swift */; };
+		C733C3A51B06708D00262212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C733C3A31B06708D00262212 /* Main.storyboard */; };
+		C733C3A71B06708D00262212 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C733C3A61B06708D00262212 /* Images.xcassets */; };
+		C733C3AA1B06708D00262212 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C733C3A81B06708D00262212 /* LaunchScreen.xib */; };
+		C733C3C31B0670D400262212 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733C3BF1B0670D400262212 /* BackgroundImageView.swift */; };
+		C733C3C61B0670D400262212 /* DisplayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733C3C21B0670D400262212 /* DisplayLabel.swift */; };
+		C733C3D11B06711300262212 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733C3CF1B06711300262212 /* Constants.swift */; };
+		C733C3D41B07681A00262212 /* Pock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C733C3D31B07681A00262212 /* Pock.mp3 */; };
+		C733C3D61B076A7400262212 /* Squeeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C733C3D51B076A7400262212 /* Squeeze.mp3 */; };
+		C733C3D81B077A3800262212 /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C733C3D71B077A3800262212 /* Music.mp3 */; };
+		C7A8E7D41B078D1900852246 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A8E7D31B078D1900852246 /* Formatter.swift */; };
+		C7A8E7D61B07950400852246 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A8E7D51B07950400852246 /* HomeViewController.swift */; };
+		C7A8E7E21B07BE8B00852246 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A8E7E11B07BE8B00852246 /* MenuButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C700B61F1B09F500000C4700 /* GameOverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverController.swift; sourceTree = "<group>"; };
+		C700B6211B0A2821000C4700 /* Sparkling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sparkling.mp3; sourceTree = "<group>"; };
+		C700B6231B0A3AA7000C4700 /* CountdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+		C700B6251B0A3EC2000C4700 /* CountdownPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownPresentationController.swift; sourceTree = "<group>"; };
+		C700B6281B0A4328000C4700 /* GameOverPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverPresentationController.swift; sourceTree = "<group>"; };
+		C70ED1E11B0B6A6300BA0C68 /* StyledButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledButton.swift; sourceTree = "<group>"; };
+		C733C39A1B06708D00262212 /* Rouletabille_imanoupetit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rouletabille_imanoupetit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C733C39E1B06708D00262212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C733C39F1B06708D00262212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C733C3A11B06708D00262212 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C733C3A41B06708D00262212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C733C3A61B06708D00262212 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C733C3A91B06708D00262212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C733C3BF1B0670D400262212 /* BackgroundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		C733C3C21B0670D400262212 /* DisplayLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayLabel.swift; sourceTree = "<group>"; };
+		C733C3CF1B06711300262212 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C733C3D31B07681A00262212 /* Pock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pock.mp3; sourceTree = "<group>"; };
+		C733C3D51B076A7400262212 /* Squeeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Squeeze.mp3; sourceTree = "<group>"; };
+		C733C3D71B077A3800262212 /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
+		C7A8E7D31B078D1900852246 /* Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		C7A8E7D51B07950400852246 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C7A8E7E11B07BE8B00852246 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C733C3971B06708D00262212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C700B6271B0A3ECE000C4700 /* Presentation controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C700B6251B0A3EC2000C4700 /* CountdownPresentationController.swift */,
+				C700B6281B0A4328000C4700 /* GameOverPresentationController.swift */,
+			);
+			name = "Presentation controllers";
+			sourceTree = "<group>";
+		};
+		C733C3911B06708D00262212 = {
+			isa = PBXGroup;
+			children = (
+				C733C39C1B06708D00262212 /* Rouletabille_imanoupetit */,
+				C733C39B1B06708D00262212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C733C39B1B06708D00262212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C733C39A1B06708D00262212 /* Rouletabille_imanoupetit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C733C39C1B06708D00262212 /* Rouletabille_imanoupetit */ = {
+			isa = PBXGroup;
+			children = (
+				C733C39F1B06708D00262212 /* AppDelegate.swift */,
+				C733C3A31B06708D00262212 /* Main.storyboard */,
+				C733C3CD1B06710000262212 /* View controllers */,
+				C733C3C71B0670DA00262212 /* Views, labels & buttons */,
+				C700B6271B0A3ECE000C4700 /* Presentation controllers */,
+				C733C3D21B06711800262212 /* Constants & formatters */,
+				C733C39D1B06708D00262212 /* Supporting Files */,
+			);
+			path = Rouletabille_imanoupetit;
+			sourceTree = "<group>";
+		};
+		C733C39D1B06708D00262212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C733C3A61B06708D00262212 /* Images.xcassets */,
+				C733C3A81B06708D00262212 /* LaunchScreen.xib */,
+				C733C3D71B077A3800262212 /* Music.mp3 */,
+				C700B6211B0A2821000C4700 /* Sparkling.mp3 */,
+				C733C3D31B07681A00262212 /* Pock.mp3 */,
+				C733C3D51B076A7400262212 /* Squeeze.mp3 */,
+				C733C39E1B06708D00262212 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C733C3C71B0670DA00262212 /* Views, labels & buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C733C3BF1B0670D400262212 /* BackgroundImageView.swift */,
+				C733C3C21B0670D400262212 /* DisplayLabel.swift */,
+				C70ED1E11B0B6A6300BA0C68 /* StyledButton.swift */,
+				C7A8E7E11B07BE8B00852246 /* MenuButton.swift */,
+			);
+			name = "Views, labels & buttons";
+			sourceTree = "<group>";
+		};
+		C733C3CD1B06710000262212 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7A8E7D51B07950400852246 /* HomeViewController.swift */,
+				C733C3A11B06708D00262212 /* GameViewController.swift */,
+				C700B6231B0A3AA7000C4700 /* CountdownViewController.swift */,
+				C700B61F1B09F500000C4700 /* GameOverController.swift */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		C733C3D21B06711800262212 /* Constants & formatters */ = {
+			isa = PBXGroup;
+			children = (
+				C7A8E7D31B078D1900852246 /* Formatter.swift */,
+				C733C3CF1B06711300262212 /* Constants.swift */,
+			);
+			name = "Constants & formatters";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C733C3991B06708D00262212 /* Rouletabille_imanoupetit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C733C3B91B06708D00262212 /* Build configuration list for PBXNativeTarget "Rouletabille_imanoupetit" */;
+			buildPhases = (
+				C733C3961B06708D00262212 /* Sources */,
+				C733C3971B06708D00262212 /* Frameworks */,
+				C733C3981B06708D00262212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rouletabille_imanoupetit;
+			productName = Rouletabille_imanoupetit;
+			productReference = C733C39A1B06708D00262212 /* Rouletabille_imanoupetit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C733C3921B06708D00262212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Imanou PETIT";
+				TargetAttributes = {
+					C733C3991B06708D00262212 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C733C3951B06708D00262212 /* Build configuration list for PBXProject "Rouletabille_imanoupetit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C733C3911B06708D00262212;
+			productRefGroup = C733C39B1B06708D00262212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C733C3991B06708D00262212 /* Rouletabille_imanoupetit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C733C3981B06708D00262212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C700B6221B0A2821000C4700 /* Sparkling.mp3 in Resources */,
+				C733C3A51B06708D00262212 /* Main.storyboard in Resources */,
+				C733C3D81B077A3800262212 /* Music.mp3 in Resources */,
+				C733C3AA1B06708D00262212 /* LaunchScreen.xib in Resources */,
+				C733C3A71B06708D00262212 /* Images.xcassets in Resources */,
+				C733C3D41B07681A00262212 /* Pock.mp3 in Resources */,
+				C733C3D61B076A7400262212 /* Squeeze.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C733C3961B06708D00262212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C700B6201B09F500000C4700 /* GameOverController.swift in Sources */,
+				C700B6291B0A4328000C4700 /* GameOverPresentationController.swift in Sources */,
+				C700B6261B0A3EC2000C4700 /* CountdownPresentationController.swift in Sources */,
+				C733C3C31B0670D400262212 /* BackgroundImageView.swift in Sources */,
+				C733C3A21B06708D00262212 /* GameViewController.swift in Sources */,
+				C70ED1E21B0B6A6300BA0C68 /* StyledButton.swift in Sources */,
+				C7A8E7D41B078D1900852246 /* Formatter.swift in Sources */,
+				C733C3D11B06711300262212 /* Constants.swift in Sources */,
+				C7A8E7E21B07BE8B00852246 /* MenuButton.swift in Sources */,
+				C700B6241B0A3AA7000C4700 /* CountdownViewController.swift in Sources */,
+				C7A8E7D61B07950400852246 /* HomeViewController.swift in Sources */,
+				C733C3C61B0670D400262212 /* DisplayLabel.swift in Sources */,
+				C733C3A01B06708D00262212 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C733C3A31B06708D00262212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C733C3A41B06708D00262212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C733C3A81B06708D00262212 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C733C3A91B06708D00262212 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C733C3B71B06708D00262212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C733C3B81B06708D00262212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C733C3BA1B06708D00262212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rouletabille_imanoupetit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Imanou-PETIT.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C733C3BB1B06708D00262212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rouletabille_imanoupetit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Imanou-PETIT.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C733C3951B06708D00262212 /* Build configuration list for PBXProject "Rouletabille_imanoupetit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C733C3B71B06708D00262212 /* Debug */,
+				C733C3B81B06708D00262212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C733C3B91B06708D00262212 /* Build configuration list for PBXNativeTarget "Rouletabille_imanoupetit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C733C3BA1B06708D00262212 /* Debug */,
+				C733C3BB1B06708D00262212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C733C3921B06708D00262212 /* Project object */;
+}
